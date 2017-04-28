@@ -1,0 +1,530 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f071b47f-8e9f-4cf0-8f68-d5ca5b031cb8" name="UMLUseCaseDiagram1" linkedPackageId="c62723e7-e1a8-4999-93eb-06755e0c6999" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="f9549732-78dc-46b6-88a3-c06af7ff55de" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="204f80e3-6941-45f2-bf08-719a038f3f0c" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="64e00a7d-7d66-4a68-ac11-f54243ef3e3e">
+          <propertyInstance Id="a4915c8a-ab76-4acf-8f3d-e2d28d902656" name="BaseName">
+            <elementDefinition Id="4bcf9a0e-f199-4909-94af-b00cdb35ac90" />
+          </propertyInstance>
+          <elementDefinition Id="83bdfca0-ed8b-42f4-92c1-6e7f0f8b9e3c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="319ef1bb-46e9-4740-8656-c7c292a7a29e">
+          <propertyInstance Id="5eaef835-1acf-4792-b77e-ad5562e8e871" name="ClrAttributes">
+            <elementDefinition Id="6ac32077-2875-4c80-9fc5-0921f2754de7" />
+          </propertyInstance>
+          <elementDefinition Id="05b0a4f2-5d8a-4a2e-8814-9a67da42ca89" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="df53833b-5b20-4479-9525-4ffdfcc590af">
+          <propertyInstance Id="f9f80469-cb95-4041-a460-66099c2ac860" name="Usings">
+            <elementDefinition Id="78ec71b4-bf32-4b53-a0d8-442228660f4f" />
+          </propertyInstance>
+          <elementDefinition Id="0a0a370d-3e55-4376-a5c7-b893392b7861" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="0144c262-e196-439b-a769-c5533e3dcd40" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="1c4a2db1-142b-4a01-ba3f-bdd27dd50d7e" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ef684253-c342-44a5-9210-173037dcdeca">
+          <propertyInstance Id="5ddb7619-27a6-4d67-832c-1df7a9afd567" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="3995afb8-2310-4de3-a7a9-17d234b9cace" />
+          </propertyInstance>
+          <elementDefinition Id="ff43e63c-399b-4429-94dd-c21195782536" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="56a25068-c971-4f0e-9770-fc543d06b111">
+          <propertyInstance Id="0043762e-57e8-4551-accc-98affb96259a" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="6429f6bd-2ab1-4451-9b8e-ea79202ba1fe" />
+          </propertyInstance>
+          <elementDefinition Id="3d543621-6d32-48d2-971e-9d1db287dcc6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="408c1849-e2d8-4fad-9332-8919a983989f">
+          <propertyInstance Id="70ed65a8-3e65-465e-9fc4-015ba7e49666" name="ProjectPath" value="ClassTemplate=..\MoltenMotelLib\MoltenMotelLib.csproj|EnumTemplate=..\MoltenMotelLib\MoltenMotelLib.csproj|InterfaceTemplate=..\MoltenMotelLib\MoltenMotelLib.csproj|StructTemplate=..\MoltenMotelLib\MoltenMotelLib.csproj">
+            <elementDefinition Id="94369116-1ea7-4960-818d-461765ba2b54" />
+          </propertyInstance>
+          <elementDefinition Id="996538f8-ed40-4fe3-b73b-75d2917b8d65" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f22d1002-0b53-4fa0-aa4d-085551bffee3">
+          <propertyInstance Id="992a1a05-e7c9-49ed-a693-45a29865277c" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="4213bf5a-de7c-42ea-95fc-12aa0cc234c3" />
+          </propertyInstance>
+          <elementDefinition Id="93752c35-91c2-4b5d-955d-e3e16b412c16" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c8bd6ec7-3618-44f1-b3e2-bd0ae488b300">
+          <propertyInstance Id="9f180fc4-3bc1-468b-82e4-2dc7ed7a45f6" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="2cdd6fd0-2345-495c-a43e-814ddc10ecb4" />
+          </propertyInstance>
+          <elementDefinition Id="1a45530d-601a-4644-a0e5-eabc77027d22" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c7f9ed46-870d-461e-b61a-454914245506">
+          <propertyInstance Id="35ded511-20b8-4325-9a22-89c1f3bbfc8c" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="acab1e51-f69b-4b23-af81-258d5b016049" />
+          </propertyInstance>
+          <elementDefinition Id="5f7a5d8c-e881-43aa-88d4-838c3d1cdd32" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="dfd00209-fd53-401b-9507-d62774967eb2">
+          <propertyInstance Id="83c8caeb-c12c-457c-aa55-fb6735472051" name="Parameters">
+            <elementDefinition Id="e52c92dc-dc9d-49c8-bdd7-b9a57d0353b3" />
+          </propertyInstance>
+          <elementDefinition Id="33a8ccbb-4b2c-4008-9a79-d7b94d5ee0a7" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="e8908b8f-8e62-4fe0-9d8c-ff141fb5565c" name="Player" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f0eb5a12-0e9e-4671-a27c-e5b578040b26" />
+        <targetEnds>
+          <association Id="32360c2a-6a5c-448a-9a28-5b9e2cffbca6" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="Quit" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3cf7624a-f5ce-41a3-8a92-a60a426bfb00" LastKnownName="Quit Game" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="95466954-8826-43a7-8ea2-93d6e4267430" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="48055348-1e9e-4fae-a46f-74c07a532846" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c3a17dea-80fd-4a73-9fc4-ba9e2ff66d77" name="Quit" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ec9c916e-c63e-4e21-b415-97c243571366" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8a85c7e0-828c-464d-a364-da9aa3af7fc4" />
+          </association>
+          <association Id="07e20e30-de36-4696-8b64-43cbd58427e2" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="Room List" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3b0eef0d-c0a7-4b4b-bc8e-06eb344526a9" LastKnownName="Room List" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cb8a8047-6d8e-42fd-b7e1-fd90192922c2" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="35ea6dbf-5da7-4f7b-bb26-2913831d0efc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6249b33f-9500-4723-8e55-e7fac3fab033" name="Room List" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="75536b04-d833-46de-a248-2d5c0e32a1d9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6d302c38-ca88-40d7-8303-b20abdde2a31" />
+          </association>
+          <association Id="8a010510-5d4c-4b1e-b4f8-973f370b7596" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="Room Report" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="80070bae-f855-4f2d-bb8a-6fccdd7f1e82" LastKnownName="Room Report" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c7f5f7e8-4cdf-4f34-b3c5-a3a723a3faa2" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="fe892fd3-9345-4348-bc87-dc068f09666b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0fe0137e-cdb9-480b-b1c0-9f971b358fdb" name="Room Report" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fc1413ff-0e3f-4c7b-930f-d324cda19773" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="793d7bf1-83c8-4a01-94bd-c6a69be359d8" />
+          </association>
+          <association Id="01685bcc-27c6-4a22-8959-47dc928e1e60" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="CLEAR Console" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fb5c9e9f-574d-4427-9922-f937ccb0f957" LastKnownName="CLEAR Console" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ea0f2433-d3e3-4202-a11a-26f35fed79b5" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="539c6128-a83a-48cb-98e0-be65a6305824" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2daab41a-8798-4ed4-8f99-5c13ff8238c3" name="CLEAR Console" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e3969540-5b1a-4fc9-916f-6edd4decc14c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4a039f2f-5bf4-4c6b-b8c1-e72d06508341" />
+          </association>
+          <association Id="e0d27322-9daa-4cb9-95e1-5e1b83635f51" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="Truck Report" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6a5ca477-a5a3-48e3-8f2c-a0a764584f1e" LastKnownName="Truck Report" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2e835274-43fb-4921-af50-2970fb950bf5" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a40980a0-12a9-4490-8f40-912bdd1b90dc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b0580257-965e-4fcc-9b42-5edd4d4cd76b" name="Truck Report" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4a73d10c-d4be-406e-b0d4-806d6f4a7c29" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="123edf1f-7f3a-43a9-9576-dffdc18dc0ac" />
+          </association>
+          <association Id="e41e6cc7-7780-4a4e-8f59-6f433a33666f" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="Truck Recall" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="abae0ea4-e6f0-4e82-a424-762ab5c4ae7d" LastKnownName="Truck Recall" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bfc1b3e0-43cc-4f66-b833-6b6234885d91" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8ececa92-1d84-47b9-82c0-fb11a10cd3fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ce2e1eb5-a4aa-4bd0-9476-90a9b31d31a3" name="Truck Recall" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="706212ef-09a6-4ad5-92a8-5a1a7f57745d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="32474351-6818-41fc-a03e-4719e2bb1e89" />
+          </association>
+          <association Id="122ec1ae-d18b-460e-a2d2-c9eccb634bac" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="Engine Refill" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ec1776dc-4eea-465b-8791-fc5140b2fb3f" LastKnownName="Truck Refill" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7ccc0381-de4f-4191-a365-0e896cae1698" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="207417e5-1310-48f7-ae6d-ae7e0063b24c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3ca30a94-4716-4762-8f78-f21b2974c5ec" name="Engine Refill" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="27d1ac82-169e-4a3e-b253-d28eeeffd472" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="04d0a4bc-be77-48c5-9337-31a21b56d506" />
+          </association>
+          <association Id="bb9cf2ea-9edc-4ad0-a07d-b3b9c4daef15" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="Engine GoTo Room" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b7691c28-9143-43a0-919e-5d051845203a" LastKnownName="Engine GoTo Room" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8076b977-a026-4d5e-80d9-3b3498fa63be" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="85fb1df5-5f39-4e30-a376-5c1b86e69e45" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="15407a57-1486-4b62-8d10-490c2abae692" name="Engine GoTo Room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="185bf48a-6adb-4663-9924-13fe7a65b10c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fb0ac1cb-0b26-4ee0-a084-ade8897cdc9a" />
+          </association>
+          <association Id="bc6864ef-4739-4cc9-a30b-089be1fca798" isDerived="false" sourceEndRoleName="Player" targetEndRoleName="Start Game" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3d8dfdc4-1992-4087-9cb3-9b1d4edf4a10" LastKnownName="Start Game" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="628b7089-4990-4bbf-924e-a9ac04aa7339" name="Player" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e18a1e3f-db6f-4c02-bdc3-aa17666733ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7d542a9c-2d60-4150-8ebd-676cb29c682a" name="Start Game" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9f34f4cc-22c3-4af2-8ee9-f8a3a17c6b66" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="61fa808b-81fc-429f-8f73-16ef9e742f6a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="65ca568a-886c-4ea0-a614-06bc6873612c" name="Truck" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="9f724505-dd50-4778-afb5-fe97e3f73362" />
+        <targetEnds>
+          <association Id="b58dc259-7471-40cc-8ee9-04ad137d71e4" isDerived="false" sourceEndRoleName="Firestation" targetEndRoleName="Truck Status" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="dee4e3ff-1ddf-4b34-bd44-3d23f18c15db" LastKnownName="Truck Status" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="df6e09be-4f61-4e16-a0a6-34729863a7bd" name="Firestation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e975c2bd-6993-497c-abc3-6ddb0f401228" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="860bee1a-3036-4e05-9a6f-90d3fa88d87c" name="Truck Status" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="10eaba47-e7f3-4a07-a898-6da752cc9d1f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3fe48ad4-1158-4115-9519-46c98144daa8" />
+          </association>
+          <association Id="89ada8c7-bcd4-4ce8-a5d6-e14a72c421c6" isDerived="false" sourceEndRoleName="Firestation" targetEndRoleName="Truck Report" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6a5ca477-a5a3-48e3-8f2c-a0a764584f1e" LastKnownName="Truck Report" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4663c832-e254-43a4-9d41-e47ec8eb3cf5" name="Firestation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a77ece07-35c6-4e16-8395-3ab385de5a2b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ebb61c98-dafe-4711-a8f3-f72f0f84eac1" name="Truck Report" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e950e326-c790-4df3-b315-5992b2b4fc77" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2b916915-3c12-4c4b-a4d7-3c95ec16a30a" />
+          </association>
+          <association Id="9d274b97-0ddb-4114-a9b9-10dadc73cae2" isDerived="false" sourceEndRoleName="Firestation" targetEndRoleName="Engine Refill" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ec1776dc-4eea-465b-8791-fc5140b2fb3f" LastKnownName="Truck Refill" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a8b305da-8f90-428c-ae0f-754adfce5e40" name="Firestation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aeb5c23b-dc4d-4d9f-8226-2ff44780c430" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="52481594-ceb7-45d5-b1c1-cc96b30a7f6e" name="Engine Refill" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="261b4b70-d8b2-4dd1-86c5-2d897a6c0bd6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5db000ae-acee-4724-9cc7-db37245deb90" />
+          </association>
+          <association Id="26f72f53-9dee-478c-92ff-f7ee225adcbc" isDerived="false" sourceEndRoleName="Firestation" targetEndRoleName="Truck Recall" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="abae0ea4-e6f0-4e82-a424-762ab5c4ae7d" LastKnownName="Truck Recall" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a057c3f7-71ba-42e1-8adf-ab5b858e52fb" name="Firestation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="91f07ac6-1a87-474c-9081-0b860b87230a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a989cd7e-8632-4821-afad-b21aca0eb830" name="Truck Recall" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8373cd26-88c5-4e0d-83de-ba9a212a567e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a43b53f9-8bd5-4533-b8df-68bf061f72f6" />
+          </association>
+          <association Id="866f7ab2-8754-480e-a2ce-b0f5816e9ca0" isDerived="false" sourceEndRoleName="Firestation" targetEndRoleName="Engine GoTo Room" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b7691c28-9143-43a0-919e-5d051845203a" LastKnownName="Engine GoTo Room" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e7bd86f5-05f7-4296-a646-05f3260f7abf" name="Firestation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="172e8f2d-6960-428d-8a84-a6cfedc3630c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1bb0847d-18f8-4339-bce7-bc3744eb2ec7" name="Engine GoTo Room" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="46b49505-1f40-4c1b-bc28-b1cf32f61aa5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e3131f91-e5b6-4526-ab6a-4630a56b6cb9" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3cf7624a-f5ce-41a3-8a92-a60a426bfb00" name="Quit Game" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1ad60d66-72da-42fc-82d5-17597565b3d4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3b0eef0d-c0a7-4b4b-bc8e-06eb344526a9" name="Room List" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c4395cd5-8a13-4281-99b0-fd35c1999d61" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6a5ca477-a5a3-48e3-8f2c-a0a764584f1e" name="Truck Report" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1db372f3-0dfc-467e-b44b-9393c8ff6fa1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="abae0ea4-e6f0-4e82-a424-762ab5c4ae7d" name="Truck Recall" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4211b278-2fd1-4438-b065-12eb10352809" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ec1776dc-4eea-465b-8791-fc5140b2fb3f" name="Truck Refill" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a6b90dfb-6a6a-41ef-96f5-39492fb29dc2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b7691c28-9143-43a0-919e-5d051845203a" name="Engine GoTo Room" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b1dbcc22-e16c-4813-89a1-6842c2e2a145" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="80070bae-f855-4f2d-bb8a-6fccdd7f1e82" name="Room Report" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a04047a5-939f-432c-ad1d-0e5e53d41583" />
+        <extendedCases>
+          <extend Id="76202c60-2e84-4045-a6f7-bb1a6710e752">
+            <useCaseMoniker Id="d123bcab-cb50-4e15-9997-a44c67baca55" LastKnownName="SAFE" />
+            <elementDefinition Id="278c552c-80f0-41b6-9aec-c1e02b706388" />
+          </extend>
+          <extend Id="00e7cc89-58a5-426b-b0e8-71d8cbe13ee9">
+            <useCaseMoniker Id="6bfc429f-21db-4fdd-8fe0-72c0f8e29ea5" LastKnownName="DANGER" />
+            <elementDefinition Id="542da43a-745e-45e9-993b-69fcef91fcaf" />
+          </extend>
+          <extend Id="beacc00c-94dd-44bf-b314-a24e644f6786">
+            <useCaseMoniker Id="4c825847-6381-458b-80ea-cc0c64b35ca1" LastKnownName="SMOULDER" />
+            <elementDefinition Id="6186dc73-c956-48be-9aab-f070b7d3a553" />
+          </extend>
+          <extend Id="e9ca19c4-8e9f-4cf9-8ec5-c32128d1ed8c">
+            <useCaseMoniker Id="59aa51cd-7a1f-4cf8-831e-495d5690f1cb" LastKnownName="FIRE" />
+            <elementDefinition Id="1a573a7f-59c5-4d9c-ab21-b0e051ab26b2" />
+          </extend>
+          <extend Id="5f6dcffe-2f19-4fd8-a41d-1e471fcc0b03">
+            <useCaseMoniker Id="17b81069-d4a2-44cd-81e4-5663ca709d4b" LastKnownName="BURNEDOUT" />
+            <elementDefinition Id="35a74107-fb11-4b58-9800-75ee03ac9e1d" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="fb5c9e9f-574d-4427-9922-f937ccb0f957" name="CLEAR Console" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0425c23e-5525-40fb-936f-228d6fe11153" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="cdfc99f7-445d-469f-8e87-33d81ce733bd" name="Motel" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ef77ec7d-bb15-4102-b855-05561995b00a" />
+        <targetEnds>
+          <association Id="a87ed6a9-5c4e-4e2b-9360-ee97c3f1cca9" isDerived="false" sourceEndRoleName="Motel" targetEndRoleName="Room List" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3b0eef0d-c0a7-4b4b-bc8e-06eb344526a9" LastKnownName="Room List" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0fcba2a3-82b8-4c6a-88cd-1b50ccde35f9" name="Motel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a41f21b6-1ddd-494c-b4a2-c334fdd75a68" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3a72b475-0423-46e9-a85a-b09c77a10b68" name="Room List" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5ea3dd08-d495-4962-8bff-37bd71f592fc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="02474b18-6d38-4adf-a8df-ce4910376094" />
+          </association>
+          <association Id="036757e6-e293-4bcb-a91c-6c83752e87df" isDerived="false" sourceEndRoleName="Motel" targetEndRoleName="Room Report" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="80070bae-f855-4f2d-bb8a-6fccdd7f1e82" LastKnownName="Room Report" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5aa43146-0d19-41bf-8394-c0d47c407103" name="Motel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="584d3848-a18b-4be8-95da-53b562016f26" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2c26e985-5e4b-453e-872e-3746e83d6f6c" name="Room Report" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6bf1259b-0e9b-4a67-b193-e2adf2e2ab32" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="896d3f9f-f846-4540-9c7b-9e4d17fbad2f" />
+          </association>
+          <association Id="807eaa0f-449b-403c-9b45-41c728888e19" isDerived="false" sourceEndRoleName="Motel" targetEndRoleName="Room Heats Up" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a853063f-246c-4f5f-ba42-435b97686bb1" LastKnownName="Room Heats Up" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4a50eced-75fb-4aea-b94c-2e61348f08c6" name="Motel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="062e37ab-8254-4fa9-a0ee-072603a13785" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="851a941b-54a1-4141-9e04-2915d90a5a04" name="Room Heats Up" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1590a98f-0425-46db-9a4f-188c4a7a66d9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="763441d9-20f9-474d-815e-508f21950c09" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="dee4e3ff-1ddf-4b34-bd44-3d23f18c15db" name="Truck Status" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e5e66b88-ec4c-4ee3-964f-1929c8c9c6de" />
+        <extendedCases>
+          <extend Id="4e1d8c2b-ef5e-4bd1-998d-f3b235446330">
+            <useCaseMoniker Id="b25734ad-1e92-4e1d-8015-05e301c8d876" LastKnownName="FREE" />
+            <elementDefinition Id="df206133-80d3-4cd1-8266-9cd1ed17be55" />
+          </extend>
+          <extend Id="7d0a63fe-e797-4d4d-b1ad-c40bb0bfc73f">
+            <useCaseMoniker Id="163f0ae4-ff9c-4664-8025-f249fe957f31" LastKnownName="ONCALL" />
+            <elementDefinition Id="ed7f5b66-f6ab-4020-861e-7a6575be1e62" />
+          </extend>
+          <extend Id="664a57d0-61e5-42db-a27c-aa881b4bc4f2">
+            <useCaseMoniker Id="59739f29-7cfe-4f60-8cf3-c0deea9c2dfc" LastKnownName="STATIONED" />
+            <elementDefinition Id="08ca4023-ea2f-445b-8dee-5d1b36c4b027" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3d8dfdc4-1992-4087-9cb3-9b1d4edf4a10" name="Start Game" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ace0d972-324e-4aa8-8600-70770274009b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a853063f-246c-4f5f-ba42-435b97686bb1" name="Room Heats Up" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ed2fd970-6916-4bbe-a1bb-289bcf25ff11" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b25734ad-1e92-4e1d-8015-05e301c8d876" name="FREE" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cdb66b46-e012-498a-a69a-0d6022fb825f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="163f0ae4-ff9c-4664-8025-f249fe957f31" name="ONCALL" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5f125001-f5a0-4248-9b10-47187cae5659" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="59739f29-7cfe-4f60-8cf3-c0deea9c2dfc" name="STATIONED" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ab7c8745-cca8-4824-b092-cdefcc8cb9bb" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d123bcab-cb50-4e15-9997-a44c67baca55" name="SAFE" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5b2868a4-16ca-431f-93f0-263530d4c492" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="4c825847-6381-458b-80ea-cc0c64b35ca1" name="SMOULDER" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c3f3d2fe-599d-4efe-8f17-d52e4d93a6af" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="17b81069-d4a2-44cd-81e4-5663ca709d4b" name="BURNEDOUT" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e66aa35d-7478-4d7c-b02e-9067ffb266d9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="59aa51cd-7a1f-4cf8-831e-495d5690f1cb" name="FIRE" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="27f21eea-6631-4258-acc2-b6bcfa8fdd2b" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6bfc429f-21db-4fdd-8fe0-72c0f8e29ea5" name="DANGER" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fb48eb08-3883-44a6-8ce5-aed9f3876143" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="c62723e7-e1a8-4999-93eb-06755e0c6999" name="MoltenMotel">
+    <elementDefinition Id="87039add-c78b-4e28-87e1-2155df97d2b8" />
+    <profileInstances>
+      <packageHasProfileInstances Id="d46aa348-817f-422d-8456-0cbafd1be897">
+        <profileInstance Id="61be00a1-a29f-490a-ad71-4643bfd96aab" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="12a73a2d-9061-4673-8bb0-ae6373d89b20">
+        <profileInstance Id="2271a651-c699-47bc-ad76-103257dcd0af" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="b62294f1-e778-4462-97fb-09203579d417">
+        <profileInstance Id="85fed3c5-2ca1-418e-a806-6de6bb1d8b93" name="CSharpProfile">
+          <elementDefinition Id="859a90a6-022e-4370-976b-0649a4b2eb8c" />
+        </profileInstance>
+        <elementDefinition Id="b83f1135-5f3e-4c1c-a8cc-5473c54d522d" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="711a1d2c-4426-4d9e-8ec2-7daca3af91f1">
+        <profileInstance Id="2a689868-4a84-4b85-985e-bf0b2e134e9b" name="TextTemplateBindings">
+          <elementDefinition Id="7992c5f6-cecf-47e3-b609-57547bcd10c1" />
+        </profileInstance>
+        <elementDefinition Id="5d00409c-09e2-4f1e-812d-e005e991283f" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

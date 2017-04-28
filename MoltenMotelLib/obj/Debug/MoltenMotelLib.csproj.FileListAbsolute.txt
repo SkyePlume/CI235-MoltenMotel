@@ -1,0 +1,15 @@
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\bin\Debug\MoltenMotelLib.exe
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\bin\Debug\MoltenMotelLib.pdb
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.exe
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.pdb
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.csprojResolveAssemblyReference.cache
+C:\Users\Skye\Documents\University of Brighton Work\Year 2\OOD\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.exe
+C:\Users\Skye\Documents\University of Brighton Work\Year 2\OOD\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.pdb
+C:\Users\Skye\Documents\University of Brighton Work\Year 2\OOD\MoltenMotel\MoltenMotelLib\bin\Debug\MoltenMotelLib.exe
+C:\Users\Skye\Documents\University of Brighton Work\Year 2\OOD\MoltenMotel\MoltenMotelLib\bin\Debug\MoltenMotelLib.pdb
+C:\Users\Skye\Documents\University of Brighton Work\Year 2\OOD\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.csprojResolveAssemblyReference.cache
+E:\University of Brighton Work\Year 2\OOD\OOD\OOD\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.exe
+E:\University of Brighton Work\Year 2\OOD\OOD\OOD\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.pdb
+E:\University of Brighton Work\Year 2\OOD\OOD\OOD\MoltenMotel\MoltenMotelLib\bin\Debug\MoltenMotelLib.exe
+E:\University of Brighton Work\Year 2\OOD\OOD\OOD\MoltenMotel\MoltenMotelLib\bin\Debug\MoltenMotelLib.pdb
+E:\University of Brighton Work\Year 2\OOD\OOD\OOD\MoltenMotel\MoltenMotelLib\obj\Debug\MoltenMotelLib.csprojResolveAssemblyReference.cache

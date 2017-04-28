@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Code Generation/Text Transformation Log">
+  <MessageClass Name="Message" Label="Message" Option="Show informational messages" />
+  <MessageClass Name="Warning" Label="Warning" Option="Show warnings" />
+  <MessageClass Name="Error" Label="Error" Option="Show errors" />
+  <MessageClass Name="Property" Label="Property" Option="Show metadata" />
+  <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="High" Text="Code generation or text transformation started." />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="Diagnostic" Text="Name = ClassTemplate" />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="Diagnostic" Text="ProjectPath = ..\MoltenMotelLib\MoltenMotelLib.csproj" />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4" />
+  <Message Timestamp="2016-04-19T11:56:10" Importance="Medium" Text="MoltenMotel's Text Template Binding: 'ClassTemplate' will apply ClassTemplate.t4 to: 'MoltenMotel::Command' -  (Class), 'MoltenMotel::Program' -  (Class), 'MoltenMotel::Parser' -  (Class), 'MoltenMotel::Motel' -  (Class), 'MoltenMotel::Game' -  (Class), 'MoltenMotel::ComandWords' -  (Class), 'MoltenMotel::FireStation' -  (Class), 'MoltenMotel::Room' -  (Class), 'MoltenMotel::Truck' -  (Class) " />
+  <Message Timestamp="2016-04-19T11:56:18" Importance="Medium" Text="Project Added: M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\MoltenMotelLib.csproj" />
+  <Message Timestamp="2016-04-19T11:56:18" Importance="Medium" Text="'MoltenMotel::Command' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\Command.cs" />
+  <Message Timestamp="2016-04-19T12:00:23" Importance="Medium" Text="'MoltenMotel::Program' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\Program.cs" />
+  <Message Timestamp="2016-04-19T12:00:23" Importance="Medium" Text="'MoltenMotel::Parser' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\Parser.cs" />
+  <Message Timestamp="2016-04-19T12:00:23" Importance="Medium" Text="'MoltenMotel::Motel' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\Motel.cs" />
+  <Message Timestamp="2016-04-19T12:00:24" Importance="Medium" Text="'MoltenMotel::Game' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\Game.cs" />
+  <Message Timestamp="2016-04-19T12:00:24" Importance="Medium" Text="'MoltenMotel::ComandWords' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\ComandWords.cs" />
+  <Message Timestamp="2016-04-19T12:00:24" Importance="Medium" Text="'MoltenMotel::FireStation' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\FireStation.cs" />
+  <Message Timestamp="2016-04-19T12:00:24" Importance="Medium" Text="'MoltenMotel::Room' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\Room.cs" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Medium" Text="'MoltenMotel::Truck' -  (Class) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\Truck.cs" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Diagnostic" Text="Name = EnumTemplate" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Diagnostic" Text="ProjectPath = ..\MoltenMotelLib\MoltenMotelLib.csproj" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4" />
+  <Message Timestamp="2016-04-19T12:00:25" Importance="Medium" Text="MoltenMotel's Text Template Binding: 'EnumTemplate' will apply EnumTemplate.t4 to: 'MoltenMotel::eGameSpeed' -  (Enumeration), 'MoltenMotel::eRoomTemp' -  (Enumeration), 'MoltenMotel::eFiretruckStatus' -  (Enumeration) " />
+  <Message Timestamp="2016-04-19T12:00:28" Importance="Medium" Text="'MoltenMotel::eGameSpeed' -  (Enumeration) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\eGameSpeed.cs" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Medium" Text="'MoltenMotel::eRoomTemp' -  (Enumeration) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\eRoomTemp.cs" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Medium" Text="'MoltenMotel::eFiretruckStatus' -  (Enumeration) : success (file created) - M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelLib\GeneratedCode\eFiretruckStatus.cs" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="Name = StructTemplate" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="Overwrite = True" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="ProjectPath = ..\MoltenMotelLib\MoltenMotelLib.csproj" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="TargetDirectory = GeneratedCode\{PackageStructure}" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="TargetName = {Name}" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="TemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="ResolvedTemplateFilePath = C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 11.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4" />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Medium" Text="MoltenMotel's Text Template Binding: 'StructTemplate' will apply StructTemplate.t4 to: 'MoltenMotel::Command' -  (Class), 'MoltenMotel::Program' -  (Class), 'MoltenMotel::Parser' -  (Class), 'MoltenMotel::Motel' -  (Class), 'MoltenMotel::Game' -  (Class), 'MoltenMotel::ComandWords' -  (Class), 'MoltenMotel::FireStation' -  (Class), 'MoltenMotel::Room' -  (Class), 'MoltenMotel::Truck' -  (Class) " />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::Command' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::Program' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::Parser' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::Motel' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::Game' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::ComandWords' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::FireStation' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::Room' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:29" Importance="Diagnostic" Text="'MoltenMotel::Truck' -  (Class): no file generated because the 'AppliesToElement' method of the template 'StructTemplate.t4' evaluated to false." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="The selection included 11 elements which were not bound to a template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Dependency): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="Diagnostic" Text="'MoltenMotel::' -  (Association): no bound template." />
+  <Message Timestamp="2016-04-19T12:00:30" Importance="High" Text="Code generation complete. Errors: 0. Warnings: 0." />
+</Log>

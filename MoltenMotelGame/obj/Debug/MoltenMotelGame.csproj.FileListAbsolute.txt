@@ -1,0 +1,6 @@
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelGame\bin\Debug\MoltenMotelGame.exe.config
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelGame\bin\Debug\MoltenMotelGame.exe
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelGame\bin\Debug\MoltenMotelGame.pdb
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelGame\obj\Debug\MoltenMotelGame.csprojResolveAssemblyReference.cache
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelGame\obj\Debug\MoltenMotelGame.exe
+M:\Visual Studio 2012\Projects\MoltenMotel\MoltenMotelGame\obj\Debug\MoltenMotelGame.pdb
